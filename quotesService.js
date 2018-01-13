@@ -191,7 +191,7 @@ QuotesService.prototype.handleRandomQuoteIntent = function (done) {
         return done({},
               { card, outputSpeech, repromptText: null, shouldEndSession });
       }
-      const resp  = JSON.parse(result.body);
+      const resp = JSON.parse(result.body);
       const card = self.generateCard('Random Movie Quote', `From ${resp.author}, ${resp.quote}`);
       const outputSpeech = self.generateOutputSpeech(`From ${resp.author}, ${resp.quote}`);
       return done({},
