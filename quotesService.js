@@ -86,7 +86,7 @@ QuotesService.prototype.handleLaunchRequest = function (done) {
     // const speechOutput = messages.messageGreeting();
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
-  const repromptText = messages.repromptGreeting();
+  const repromptText = messages.messageReprompt();
   const shouldEndSession = false;
   const outputSpeech = this.generateOutputSpeech(messages.messageGreeting());
   const card = this.generateCard(messages.cardGreeting(), messages.messageGreeting());
