@@ -60,3 +60,4 @@ deploy.env
 build/
 .lambda/
 event.json
+package-lock.json

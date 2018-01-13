@@ -1,0 +1,36 @@
+{
+  "name": "movie-quotes",
+  "version": "1.0.0",
+  "description": "LLambda function for Alexa skill - movie-quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "node-lambda run",
+    "deploy": "node-lambda deploy",
+    "lint": "eslint './*.js'",
+    "lintfix": "eslint --fix './*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myke11j/movie-quotes-alexa-skill.git"
+  },
+  "author": "Mukul <@mukul1904>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myke11j/movie-quotes-alexa-skill/issues"
+  },
+  "homepage": "https://github.com/myke11j/movie-quotes-alexa-skill#readme",
+  "dependencies": {
+    "goodreads-json-api": "^1.0.4",
+    "winston": "^2.4.0",
+    "winston-papertrail": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
