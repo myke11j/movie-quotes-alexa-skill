@@ -22,6 +22,7 @@
   "homepage": "https://github.com/myke11j/movie-quotes-alexa-skill#readme",
   "dependencies": {
     "goodreads-json-api": "^1.0.4",
+    "unirest": "^0.5.1",
     "winston": "^2.4.0",
     "winston-papertrail": "^1.0.5"
   },
